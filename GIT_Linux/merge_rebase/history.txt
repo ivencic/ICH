@@ -1,0 +1,16 @@
+  660  git clone git@github.com:ivencic/merge_rebase.git
+  661  cd merge_rebase
+  662  git checkout -b feature
+  663  ls -la
+  664  git merge checkout main
+  665  git merge main
+  666  echo "#text" > README.md
+  667  echo "#map, file" > .gitignore
+  668  git status
+  669  git add .
+  670  git status
+  671  git commit -m "Add README file"
+  672  git push origin feature
+  673  git commit --amend -m "Add README file and add amend"
+  674  git checkout main
+  675  git merge feature

@@ -1,0 +1,15 @@
+   0 touch /tmp/file.txt
+   1 ls /tmp/
+   2 date > /tmp/file.txt 
+   3 cat /tmp/file.txt 
+   4 df -h / >> /tmp/file.txt 
+   5 cat /tmp/file.txt 
+   6 history | tail -n 3 >> /tmp/file.txt 
+   7 cat /tmp/file.txt 
+   8 cat /etc/passwd | grep -w cron >> /tmp/file.txt 
+   9 cat /tmp/file.txt 
+  10 cat /etc/group | grep -w root | wc -l >> /tmp/file.txt 
+  11 cat /tmp/file.txt 
+  12 vi /tmp/file.txt 
+  13 cat /tmp/file.txt 
+  14 history > /tmp/hw4.txt && export_file /tmp/hw4.txt
